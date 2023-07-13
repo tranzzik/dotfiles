@@ -102,7 +102,7 @@ source ~/LS_COLORS/lscolors.sh
 alias ls="lsd --group-dirs first"
 alias ll="ls -Alh"
 alias vi="nvim"
-alias wylacztemuze="sudo python3 ~/code/l2ping-flood/l2ping-flood.py 00:1F:47:E2:25:AC -p 50"
+alias wylacztemuze="sudo python3 ~/code/l2ping-flood/l2ping-flood.py 00:1F:47:E2:25:AC -p 70"
 alias byebye="shutdown -h now"
 alias bye4now="shutdown -r now"
 alias repoly="killall polybar && ~/.config/polybar/launch.sh"
