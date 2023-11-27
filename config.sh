@@ -6,12 +6,18 @@ TRACKED_CONFIGS=("nvim" "neofetch" "dunst" "rofi" "picom" "polybar" "i3" "alacri
 
 if [ -d $DOTFILES_DIR ]; then
     cd $DOTFILES_DIR
-    rm .zshrc
+
+    status=$(git status)
+
+    if grep -q "nothing to commit" <<< $status; then
+        echo "Everything up to date."
+        exit 0
+    fi
+
     cp /home/$(whoami)/.zshrc .
 
     for config in ${TRACKED_CONFIGS[@]}; do
         if [ -d "/home/$(whoami)/.config/$config" ]; then
-            rm -rf .config/$config
             cp -r /home/$(whoami)/.config/$config .config/
         fi
     done
