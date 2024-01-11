@@ -535,7 +535,7 @@ local servers = {
     pylsp = {
       plugins = {
         pycodestyle = {
-          ignore = {'E501', 'E115', 'E265', 'W191', 'E305'},
+          ignore = {'E501', 'E115', 'E265', 'W191', 'E305', 'E722'},
         },
         pyflakes = {enabled = false},
         pylint = {enabled = false},
