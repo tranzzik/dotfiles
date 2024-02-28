@@ -8,19 +8,19 @@ background = "#6a006a"
 size = 10
 
 [font.bold]
-family = "Caskaydia Cove Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "Caskaydia Cove Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "Caskaydia Cove Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "Caskaydia Cove Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [scrolling]
