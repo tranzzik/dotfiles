@@ -70,8 +70,9 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git copyfile copypath zsh-autosuggestions sudo web-search copybuffer dirhistory history ls ruby rails colorize material-colors git)
+plugins=(git copyfile copypath zsh-autosuggestions sudo web-search copybuffer dirhistory history ls ruby rails colorize material-colors git python)
 
+#export PYTHON_AUTO_VRUN=true
 source $ZSH/oh-my-zsh.sh
 source ~/LS_COLORS/lscolors.sh
 # User configuration
@@ -120,3 +121,5 @@ alias easy3="easyocr-venv && python3"
 alias configs="/home/julian/code/bash/config.sh"
 alias wherespace="du -h . | sort -hr | head -n 15"
 alias cocker="docker compose"
+alias gnm="cd $HOME/code/python/gdzieniemieszkac && source venv/bin/activate"
+alias python="python3.12"
