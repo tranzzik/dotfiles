@@ -123,3 +123,6 @@ alias wherespace="du -h . | sort -hr | head -n 15"
 alias cocker="docker compose"
 alias gnm="cd $HOME/code/python/gdzieniemieszkac && source venv/bin/activate"
 alias python="python3.12"
+
+alias entrycam="easyocr-venv && python3 ~/code/parking/plate_reader.py"
+alias exitcam="easyocr-venv && python3 ~/code/parking/plate_reader.py -e"
